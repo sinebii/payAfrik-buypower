@@ -1,0 +1,93 @@
+:root{
+    --baseColor:#0C41A6;
+    --maincolor:#11154B;
+    --secondarycolor:#ffa500;
+    --btncolor:#03BFCB;
+  }
+.payAfrik_signup_container{
+
+    width: 100%;
+    height: 100vh;
+}
+
+.payAfrik_nav{
+    width: 100%;
+    height: 10vh;
+    /* border: 1px solid green; */
+}
+
+.payAfrik_mainRegistration_container{
+    width: 100%;
+    height: 90vh;
+    padding: 5vh 30vw;
+    /* border: 2px solid red; */
+}
+
+.create_account_header{
+
+    margin: 5vh 0vw;
+    color: var(--baseColor);
+}
+
+.create_account_form{
+
+}
+
+input{
+
+    height: 3rem;
+}
+button{
+    width: 6rem;
+    height: 2rem;
+    outline: none;
+    background: var(--baseColor);
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+
+.formControl{
+    margin-top: 1rem;
+    
+
+}
+
+.step2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* border: 1px solid red; */
+}
+.login_link{
+    margin-top: 2.5rem;
+}
+
+.formControl p{
+    color: red;
+    font-size: 0.7rem;
+}
+
+.otpbox{
+    
+}
+
+.main_otp{
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+}
+
+.otp_key{
+    color: red;
+}
+

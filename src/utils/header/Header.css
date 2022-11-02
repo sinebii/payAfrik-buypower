@@ -1,0 +1,67 @@
+.payAfrik_main_header{
+
+    width: 100%;
+    height: 10vh;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.logo{
+
+    width: 20%;
+    height: 4rem;
+    /* border: 1px solid red; */
+
+}
+
+.searchbar{
+
+    width: 50%;
+    height: 4rem;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+.menu{
+
+    width: 30%;
+    height: 4rem;
+    /* border: 1px solid blue; */
+
+}
+
+.payFrikLogo{
+    width: 60%;
+    margin: 1rem 2rem;
+    
+}
+
+input{
+    width: 100%;
+    height: 80%;
+    border: 0px;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-left: 0.63rem;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green; */
+}
+
+.menu_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:1.5rem;
+}
+
+.menu_icon{
+    color: var(--baseColor);
+}

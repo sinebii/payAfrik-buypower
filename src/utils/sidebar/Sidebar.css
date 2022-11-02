@@ -1,0 +1,47 @@
+:root{
+    --baseColor:#0C41A6;
+    --maincolor:#11154B;
+    --secondarycolor:#ffa500;
+    --btncolor:#03BFCB;
+  }
+
+.sidebar{
+    width: 20%;
+    height: 90vh;
+    background: #E5E7E9;
+    /* padding-left: 2vw; */
+    /* background: var(--baseColor); */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    
+}
+
+.sidebar_item{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 100px -0px;
+    /* border: 1px solid green; */
+}
+.icon2:nth-child(1){
+    margin-top: 1.8rem;
+}
+
+.icon2{
+    
+    font-size: 2rem;
+    color: white;
+}
+.icon2 img{
+    width: 3rem;
+    height: 3rem;
+}
+.item_name{
+    color: var(--baseColor);
+    font-size: 1rem;
+
+}
+
+

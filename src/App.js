@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import { Routes, Route, Link } from "react-router-dom";
+import Dashboard from './pages/dashboard/Dashboard';
+import BuyElectricity from './pages/buyelectricity/BuyElectricity';
+import BuyAirtimeData from './pages/buyairtimedata/BuyAirtimeData';
+import Buyreg from './pages/buyreg/Buyreg';
+import CableTvSubscription from './pages/cabletv/CableTvSubscription';
+import Registration from './pages/registration/Registration';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Dashboard/> */}
+      <Routes>
+        <Route path='/' element={<Registration/>}/>
+        <Route path='/' element={<Dashboard/>}/>
+        <Route path='/dashboard/buyelectricity' element={<BuyElectricity/>}/>
+        <Route path='/buyairtimedata' element={<BuyAirtimeData/>}/>
+        <Route path='/cablesubcription' element={<CableTvSubscription/>}/>
+        <Route path='/rwandaelectricity' element={<Buyreg/>}/>
+      </Routes>
     </div>
   );
 }

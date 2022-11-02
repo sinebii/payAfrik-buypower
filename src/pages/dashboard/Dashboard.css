@@ -1,0 +1,59 @@
+:root{
+    --baseColor:#0C41A6;
+    --maincolor:#11154B;
+    --secondarycolor:#ffa500;
+    --btncolor:#03BFCB;
+  }
+
+.payAfrik_main_board{
+
+    width: 100%;
+    height: 90vh;
+    /* border: 1px solid red; */
+    padding: 3vh 8vw;
+    /* background: #ccc; */
+    
+    
+
+
+}
+
+.board{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(30vh auto);
+    gap: 2vh;
+    /* border: 1px solid red; */
+}
+.util{
+    /* width: 30%;
+    height: 10vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 25vh;
+    transition: 0.5s ease-in-out;
+    
+}
+
+.util:hover{
+    -webkit-box-shadow: 0 10px 6px -6px var(--baseColor);
+     -moz-box-shadow: 0 10px 6px -6px var(--baseColor);
+          box-shadow: 0 10px 6px -6px var(--baseColor);
+}
+
+.icon{
+    font-size: 3rem;
+    color: var(--baseColor);
+}
+.utility_name{
+    color: var(--baseColor);
+}
+
+.icon img{
+    width: 5rem;
+    height: 5rem;
+}
